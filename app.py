@@ -23,7 +23,7 @@ if proyecto and mentor_activado:
     try:
         client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            api_key="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"
+            api_key=st.secrets["OPENROUTER_API_KEY"]
         )
 
         user_prompt = (
