@@ -35,7 +35,7 @@ if proyecto and mentor_activado:
             "3. Después, selecciona todos los materiales propuestos y describe en cada material su cadena de suministro actual (origen, transformación, transporte, actores involucrados).\n"
             "4. Evalúa sus impactos (ambientales, sociales, certificaciones, da 3 alternativas locales o responsables).\n"
             "5. Genera y muestra una tabla donde se muestre en todos los materiales, las 3 alternativas con sus impactos ambientales, sociales, certificaciones.\n"
-            "Da la información en formato claro para poder ser usado y no preguntes si desean más información."
+            "Da la información en formato claro para poder ser usado y no preguntes si desean más información, tampoco les preguntes al finalizar tu análisis."
         )
 
         messages = [
