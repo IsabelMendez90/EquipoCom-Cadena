@@ -6,7 +6,11 @@ st.title("📦 Generador de Ruta de Materiales para Anteproyecto con ayuda de Me
 st.markdown(
     "Creadora: Dra. J. Isabel Méndez Garduño")
 
-st.markdown("Esta app te permite registrar la cadena de suministro de un material usado en tu anteproyecto y generar un **diagrama comparativo** entre la cadena actual y una propuesta optimizada. Además, incluye un **Mentor AI** experto en diseño arquitectónico participativo, sostenible e inclusivo.")
+st.markdown("Esta app te permite identificar potenciales materiales de construcción y su cadena de suministro.
+En la descripción de materiales, aquí te muestro un ejemplo de qué poner: 
+
+Estamos diseñando un espacio escolar comunitario en la colonia Nonoalco, CDMX, para niños de 3 a 12 años, incluyendo usuarios con discapacidad. El proyecto incluye un área de juegos, una pequeña aula multifuncional, baños accesibles y señalización amigable. Buscamos soluciones que prioricen seguridad, sostenibilidad, accesibilidad y participación vecinal.”"
+            ")
 
 # Estado inicial
 if "mentor_respuesta" not in st.session_state:
